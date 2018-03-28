@@ -14,7 +14,7 @@ The app will look for the database at hostname `database` and port 27017 (defaul
 
 1. Clone the repository: `git clone https://github.com/0xcf/decal-sp18-a10.git`
 2. Install the application: `npm install`
-3. Start the server: `node server.js`
+3. Start the server: `nodejs server.js`
 4. View in browser at `http://localhost:8080`
 
 
