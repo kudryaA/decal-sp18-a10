@@ -7,7 +7,7 @@ function getTodos(res) {
         if (err) {
             res.send(err);
         }
-
+        console.log(todos);
         res.json(todos); // return all todos in JSON format
     });
 };
@@ -32,6 +32,7 @@ module.exports = function (app) {
             if (err)
                 res.send(err);
 
+            console.log(req.body.text)
             // get and return all the todos after you create another
             getTodos(res);
         });
